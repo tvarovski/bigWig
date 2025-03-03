@@ -4,4 +4,4 @@ track type=bigWig name=RNAseq_basal description="RNAseq basal" visibility=full b
 track type=bigWig name=RNAseq_spinous description="RNAseq spinous" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/spinous.bw color=55,34,29
 track type=bigWig name=RNAseq_differenciated description="RNAseq differenciated" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/differentiated.bw color=58,40,74
 track type=bigWig name=RNAseq_hair_placode description="RNAseq hair placode" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/hair_placode.bw color=100,50,5
-track name=RepeatMAsker visibility=hide
+track name=RepeatMasker visibility=hide
