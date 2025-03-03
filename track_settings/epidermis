@@ -1,0 +1,6 @@
+track type=bigWig name=ATAC_track description="ATAC" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/atac_tracks/18-TileSize-10-normMethod-rc.bw color=50,50,50
+track type=bigWig name=RNAseq_epidermis description="RNAseq epidermis" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/epidermis.bw color=12,47,71
+track type=bigWig name=RNAseq_basal description="RNAseq basal" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/basal.bw color=89,47,76
+track type=bigWig name=RNAseq_spinous description="RNAseq spinous" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/spinous.bw color=55,34,29
+track type=bigWig name=RNAseq_differenciated description="RNAseq differenciated" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/differentiated.bw color=58,40,74
+track type=bigWig name=RNAseq_hair_placode description="RNAseq hair placode" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/hair_placode.bw color=100,50,5
