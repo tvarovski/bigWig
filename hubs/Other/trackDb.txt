@@ -1,0 +1,39 @@
+#############################
+# ATAC Other Composite Track Group
+#############################
+track ATAC_Other
+compositeTrack on
+shortLabel ATAC
+longLabel Pseudobulk ATACseq Tracks of Other Clusters
+type bigWig
+group OtherATACseq
+visibility full
+
+    track OtherATAC_all
+    parent ATAC_Other
+    shortLabel Other ATAC
+    longLabel Pseudobulk ATACseq of Other Clusters (all)
+    type bigWig
+    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fother.bw
+    color 12,47,71
+    autoScale group
+
+#############################
+# RNA Other Composite Track Group
+#############################
+track RNA_Other
+compositeTrack on
+shortLabel RNA
+longLabel Pseudobulk RNAseq Tracks of Other Clusters
+type bigWig
+group OtherRNAseq
+visibility pack
+
+    track OtherRNA_All
+    parent RNA_Other
+    shortLabel Other RNA
+    longLabel Pseudobulk RNAseq of Other Clusters (all)
+    type bigWig
+    bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/other.bw
+    color 12,47,71
+    autoScale group

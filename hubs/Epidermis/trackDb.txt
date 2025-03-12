@@ -1,7 +1,7 @@
 #############################
-# ATAC Composite Track Group
+# ATAC Epidermis Composite Track Group
 #############################
-track ATAC
+track ATAC_Epidermis
 compositeTrack on
 shortLabel ATAC
 longLabel Pseudobulk ATACseq Tracks
@@ -9,8 +9,8 @@ type bigWig
 group EpidermisATACseq
 visibility full
 
-    track EpidermisATAC
-    parent ATAC
+    track EpidermisATAC_all
+    parent ATAC_Epidermis
     shortLabel Epidermis ATAC
     longLabel Pseudobulk ATACseq of epidermis (all)
     type bigWig
@@ -19,7 +19,7 @@ visibility full
     autoScale group
 
     track BasalATAC
-    parent ATAC
+    parent ATAC_Epidermis
     shortLabel Basal ATAC
     longLabel Pseudobulk ATACseq of basal cells
     type bigWig
@@ -28,7 +28,7 @@ visibility full
     autoScale group
 
     track SpinousATAC
-    parent ATAC
+    parent ATAC_Epidermis
     shortLabel Spinous ATAC
     longLabel Pseudobulk ATACseq of spinous cells
     type bigWig
@@ -37,7 +37,7 @@ visibility full
     autoScale group
 
     track DiffATAC
-    parent ATAC
+    parent ATAC_Epidermis
     shortLabel Diff ATAC
     longLabel Pseudobulk ATACseq of differentiated cells
     type bigWig
@@ -46,7 +46,7 @@ visibility full
     autoScale group
 
     track HairPlacodeATAC
-    parent ATAC
+    parent ATAC_Epidermis
     shortLabel Hair Placode ATAC
     longLabel Pseudobulk ATACseq of hair placode
     type bigWig
@@ -55,9 +55,9 @@ visibility full
     autoScale group
 
 #############################
-# RNA Composite Track Group
+# RNA Epidermis Composite Track Group
 #############################
-track RNA
+track RNA_Epidermis
 compositeTrack on
 shortLabel RNA
 longLabel Pseudobulk RNAseq Tracks
@@ -65,8 +65,8 @@ type bigWig
 group EpidermisRNAseq
 visibility pack
 
-    track EpidermisRNA
-    parent RNA
+    track EpidermisRNA_All
+    parent RNA_Epidermis
     shortLabel Epidermis RNA
     longLabel Pseudobulk RNAseq of epidermis (all)
     type bigWig
@@ -75,7 +75,7 @@ visibility pack
     autoScale group
 
     track BasalRNA
-    parent RNA
+    parent RNA_Epidermis
     shortLabel Basal RNA
     longLabel Pseudobulk RNAseq of basal cells
     type bigWig
@@ -84,7 +84,7 @@ visibility pack
     autoScale group
 
     track SpinousRNA
-    parent RNA
+    parent RNA_Epidermis
     shortLabel Spinous RNA
     longLabel Pseudobulk RNAseq of spinous cells
     type bigWig
@@ -93,7 +93,7 @@ visibility pack
     autoScale group
 
     track DiffRNA
-    parent RNA
+    parent RNA_Epidermis
     shortLabel Diff RNA
     longLabel Pseudobulk RNAseq of differentiated cells
     type bigWig
@@ -102,7 +102,7 @@ visibility pack
     autoScale group
 
     track HairPlacodeRNA
-    parent RNA
+    parent RNA_Epidermis
     shortLabel Hair Placode RNA
     longLabel Pseudobulk RNAseq of hair placode
     type bigWig
