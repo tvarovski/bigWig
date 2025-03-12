@@ -17,6 +17,7 @@ visibility full
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fother.bw
     color 12,47,71
     autoScale group
+    priority 1
 
 #############################
 # RNA Other Composite Track Group
@@ -37,3 +38,4 @@ visibility pack
     bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/other.bw
     color 12,47,71
     autoScale group
+    priority 1

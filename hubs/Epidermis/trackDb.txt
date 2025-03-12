@@ -17,6 +17,7 @@ visibility full
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_epidermis.bw
     color 12,47,71
     autoScale group
+    priority 1
 
     track BasalATAC
     parent ATAC_Epidermis
@@ -26,6 +27,7 @@ visibility full
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_basal_keratinocytes.bw
     color 89,47,76
     autoScale group
+    priority 2
 
     track SpinousATAC
     parent ATAC_Epidermis
@@ -35,6 +37,7 @@ visibility full
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_spinous_keratinocytes.bw
     color 55,34,29
     autoScale group
+    priority 3
 
     track DiffATAC
     parent ATAC_Epidermis
@@ -44,6 +47,7 @@ visibility full
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_differentiated_keratinocytes.bw
     color 58,40,74
     autoScale group
+    priority 4
 
     track HairPlacodeATAC
     parent ATAC_Epidermis
@@ -53,6 +57,7 @@ visibility full
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_hair_placode.bw
     color 100,50,5
     autoScale group
+    priority 5
 
 #############################
 # RNA Epidermis Composite Track Group
@@ -73,6 +78,7 @@ visibility pack
     bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/epidermis.bw
     color 12,47,71
     autoScale group
+    priority 1
 
     track BasalRNA
     parent RNA_Epidermis
@@ -82,6 +88,7 @@ visibility pack
     bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/basal.bw
     color 89,47,76
     autoScale group
+    priority 2
 
     track SpinousRNA
     parent RNA_Epidermis
@@ -91,6 +98,7 @@ visibility pack
     bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/spinous.bw
     color 55,34,29
     autoScale group
+    priority 3
 
     track DiffRNA
     parent RNA_Epidermis
@@ -100,6 +108,7 @@ visibility pack
     bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/differentiated.bw
     color 58,40,74
     autoScale group
+    priority 4
 
     track HairPlacodeRNA
     parent RNA_Epidermis
@@ -109,3 +118,4 @@ visibility pack
     bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/hair_placode.bw
     color 100,50,5
     autoScale group
+    priority 5
