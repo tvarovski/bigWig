@@ -1,2 +1,0 @@
-track type=bigWig name=myBigWigTrack description="a bigWig track" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/18-TileSize-10-normMethod-rc.bw
-track type=bigWig name=myBigWigcondensate description="an RNAseq track" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/dermal_condensate.bw
