@@ -1,4 +1,4 @@
 browser hide all
-track name="RefSeq Curated" visibility=pack
+track name="NCBI RefSeq" visibility=pack
 track type=bigWig name="example ATAC_track" description="ATAC" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/atac_tracks/18-TileSize-10-normMethod-rc.bw color=50,50,50
 track type=bigWig name="Other Clusters Expression" description="Pseudobulk RNAseq of other skin clusters" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/other.bw color=12,47,71
