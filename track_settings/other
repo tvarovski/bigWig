@@ -1,5 +1,4 @@
 browser hide all
-track type=bigWig name="example ATAC_track" description="ATAC" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/atac_tracks/18-TileSize-10-normMethod-rc.bw color=50,50,50
+track type=bigWig name="Other Clusters ATAC" description="Pseudobulk ATACseq of other skin clusters" visibility=full bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fother.bw color=12,47,71
 
-
-track type=bigWig name="Other Clusters RNA" description="Pseudobulk RNAseq of other skin clusters" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/other.bw color=12,47,71
+track type=bigWig name="Other Clusters RNA" description="Pseudobulk RNAseq of other skin clusters" visibility=pack bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/other.bw color=12,47,71
