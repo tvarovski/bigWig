@@ -23,7 +23,7 @@ visibility full
     shortLabel Dermal Condensate ATAC
     longLabel Pseudobulk ATACseq of Dermal Condensate
     type bigWig
-    bigDataUrl bigDataUrl=bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fdermal%5Fcondensate.bw
+    bigDataUrl bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fdermal%5Fcondensate.bw
     color 89,47,76
     autoScale group
 
