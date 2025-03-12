@@ -21,7 +21,7 @@ visibility full
 
     track DermalCondensateATAC
     parent ATAC_Dermis
-    shortLabel Dermal Condensate ATAC
+    shortLabel Condensate ATAC
     longLabel Pseudobulk ATACseq of Dermal Condensate
     type bigWig
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fdermal%5Fcondensate.bw
@@ -52,7 +52,7 @@ visibility pack
 
     track DermalCondensateRNA
     parent RNA_Dermis
-    shortLabel Dermal Condensate RNA
+    shortLabel Condensate RNA
     longLabel Pseudobulk RNAseq of Dermal Condensate
     type bigWig
     bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/dermal_condensate.bw
