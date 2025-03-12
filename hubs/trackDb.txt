@@ -1,0 +1,111 @@
+#############################
+# ATAC Composite Track Group
+#############################
+track ATAC
+compositeTrack on
+shortLabel ATAC
+longLabel Pseudobulk ATACseq Tracks
+type bigWig
+group EpidermisATACseq
+visibility full
+
+    track EpidermisATAC
+    parent ATAC
+    shortLabel Epidermis ATAC
+    longLabel Pseudobulk ATACseq of epidermis (all)
+    type bigWig
+    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_epidermis.bw
+    color 12,47,71
+    autoScale group
+
+    track BasalATAC
+    parent ATAC
+    shortLabel Basal ATAC
+    longLabel Pseudobulk ATACseq of basal cells
+    type bigWig
+    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_basal_keratinocytes.bw
+    color 89,47,76
+    autoScale group
+
+    track SpinousATAC
+    parent ATAC
+    shortLabel Spinous ATAC
+    longLabel Pseudobulk ATACseq of spinous cells
+    type bigWig
+    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_spinous_keratinocytes.bw
+    color 55,34,29
+    autoScale group
+
+    track DiffATAC
+    parent ATAC
+    shortLabel Diff ATAC
+    longLabel Pseudobulk ATACseq of differentiated cells
+    type bigWig
+    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_differentiated_keratinocytes.bw
+    color 58,40,74
+    autoScale group
+
+    track HairPlacodeATAC
+    parent ATAC
+    shortLabel Hair Placode ATAC
+    longLabel Pseudobulk ATACseq of hair placode
+    type bigWig
+    bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_hair_placode.bw
+    color 100,50,5
+    autoScale group
+
+#############################
+# RNA Composite Track Group
+#############################
+track RNA
+compositeTrack on
+shortLabel RNA
+longLabel Pseudobulk RNAseq Tracks
+type bigWig
+group EpidermisRNAseq
+visibility pack
+
+    track EpidermisRNA
+    parent RNA
+    shortLabel Epidermis RNA
+    longLabel Pseudobulk RNAseq of epidermis (all)
+    type bigWig
+    bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/epidermis.bw
+    color 12,47,71
+    autoScale group
+
+    track BasalRNA
+    parent RNA
+    shortLabel Basal RNA
+    longLabel Pseudobulk RNAseq of basal cells
+    type bigWig
+    bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/basal.bw
+    color 89,47,76
+    autoScale group
+
+    track SpinousRNA
+    parent RNA
+    shortLabel Spinous RNA
+    longLabel Pseudobulk RNAseq of spinous cells
+    type bigWig
+    bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/spinous.bw
+    color 55,34,29
+    autoScale group
+
+    track DiffRNA
+    parent RNA
+    shortLabel Diff RNA
+    longLabel Pseudobulk RNAseq of differentiated cells
+    type bigWig
+    bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/differentiated.bw
+    color 58,40,74
+    autoScale group
+
+    track HairPlacodeRNA
+    parent RNA
+    shortLabel Hair Placode RNA
+    longLabel Pseudobulk RNAseq of hair placode
+    type bigWig
+    bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/hair_placode.bw
+    color 100,50,5
+    autoScale group
