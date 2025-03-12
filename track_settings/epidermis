@@ -1,8 +1,12 @@
 browser hide all
-track name=refGene visibility=full
-track type=bigWig name="example ATAC_track" description="ATAC" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/atac_tracks/18-TileSize-10-normMethod-rc.bw color=50,50,50
-track type=bigWig name="Epidermis Expression" description="Pseudobulk RNAseq of epidermis (all)" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/epidermis.bw color=12,47,71
-track type=bigWig name="Basal Expression" description="Pseudobulk RNAseq of basal cells" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/basal.bw color=89,47,76
-track type=bigWig name="Spinous Expression" description="Pseudobulk RNAseq of spinous cells" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/spinous.bw color=55,34,29
-track type=bigWig name="Differentiated Expression" description="Pseudobulk RNAseq of differentiated cells" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/differentiated.bw color=58,40,74
-track type=bigWig name="Hair Placode Expression" description="Pseudobulk RNAseq of hair placode" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/hair_placode.bw color=100,50,5
+track type=bigWig name="Epidermis ATAC" description="ATAC" visibility=full bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fepidermis.bw itemRgb=On color=12,47,71
+track type=bigWig name="Basal ATAC" description="ATAC" visibility=full bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fbasal%5Fkeratinocytes.bw itemRgb=On color=89,47,76
+track type=bigWig name="Spinous ATAC" description="ATAC" visibility=full bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fspinous%5Fkeratinocytes.bw itemRgb=On color=55,34,29
+track type=bigWig name="Differentiated ATAC" description="ATAC" visibility=full bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fdifferentiated%5Fkeratinocytes.bw itemRgb=On color=58,40,74
+track type=bigWig name="Hair Placode ATAC" description="ATAC" visibility=full bigDataUrl=https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506%5FATAC%5Fhair%5Fplacode.bw itemRgb=On color=100,50,5
+
+track type=bigWig name="Epidermis RNA" description="Pseudobulk RNAseq of epidermis (all)" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/epidermis.bw color=12,47,71
+track type=bigWig name="Basal RNA" description="Pseudobulk RNAseq of basal cells" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/basal.bw color=89,47,76
+track type=bigWig name="Spinous RNA" description="Pseudobulk RNAseq of spinous cells" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/spinous.bw color=55,34,29
+track type=bigWig name="Differentiated RNA" description="Pseudobulk RNAseq of differentiated cells" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/differentiated.bw color=58,40,74
+track type=bigWig name="Hair Placode RNA" description="Pseudobulk RNAseq of hair placode" visibility=full bigDataUrl=https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/hair_placode.bw color=100,50,5
