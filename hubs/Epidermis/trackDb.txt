@@ -15,7 +15,7 @@ visibility full
     longLabel Pseudobulk ATACseq of epidermis (all)
     type bigWig
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_epidermis.bw
-    color 12,47,71
+    color 31, 150, 230
     autoScale group
     priority 1
 
@@ -25,7 +25,7 @@ visibility full
     longLabel Pseudobulk ATACseq of basal cells
     type bigWig
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_basal_keratinocytes.bw
-    color 89,47,76
+    color 180, 120, 230
     autoScale group
     priority 2
 
@@ -35,7 +35,7 @@ visibility full
     longLabel Pseudobulk ATACseq of spinous cells
     type bigWig
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_spinous_keratinocytes.bw
-    color 55,34,29
+    color 255, 50, 50
     autoScale group
     priority 3
 
@@ -45,7 +45,7 @@ visibility full
     longLabel Pseudobulk ATACseq of differentiated cells
     type bigWig
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_differentiated_keratinocytes.bw
-    color 58,40,74
+    color 50, 200, 50
     autoScale group
     priority 4
 
@@ -55,6 +55,6 @@ visibility full
     longLabel Pseudobulk ATACseq of hair placode
     type bigWig
     bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8833nnn/GSM8833506/suppl/GSM8833506_ATAC_hair_placode.bw
-    color 100,50,5
+    color 255, 140, 30
     autoScale group
     priority 5
