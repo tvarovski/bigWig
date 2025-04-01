@@ -28,34 +28,3 @@ visibility full
     color 89,47,76
     autoScale group
     priority 2
-
-#############################
-# RNA Dermis Composite Track Group
-#############################
-track RNA_Dermis
-compositeTrack on
-shortLabel RNA
-longLabel Pseudobulk RNAseq Tracks
-type bigWig
-group DermisRNAseq
-visibility pack
-
-    track DermisRNA_all
-    parent RNA_Dermis
-    shortLabel Dermis RNA
-    longLabel Pseudobulk RNAseq of Dermis (all)
-    type bigWig
-    bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/dermis.bw
-    color 12,47,71
-    autoScale group
-    priority 1
-
-    track DermalCondensateRNA
-    parent RNA_Dermis
-    shortLabel Condensate RNA
-    longLabel Pseudobulk RNAseq of Dermal Condensate
-    type bigWig
-    bigDataUrl https://github.com/tvarovski/bigWig/raw/refs/heads/main/rnaseq_tracks/dermal_condensate.bw
-    color 89,47,76
-    autoScale group
-    priority 2
